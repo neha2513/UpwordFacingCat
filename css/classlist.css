@@ -1,0 +1,48 @@
+@media screen and (max-width: 1278px) {
+    .flexDirection {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1820px) {
+    .heading {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .flexDirection2 {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .classPara {
+        font-size: 0.9rem;
+    }
+
+    .cartPadding {
+        text-align: left;
+        padding-top: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .footerData{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+}

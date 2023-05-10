@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/indexPage.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Profile- Upward Facing Cat</title>
+</head>
+
+<body>
+    <!-- Navbar Starts-->
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xs flex flex-wrap items-center justify-evenly mx-auto p-4">
+            <a href="index.html" class="flex items-center">
+                <img src="./images/Logo.webp" class="h-13 mr-3 imgResponsive" alt="Flowbite Logo" />
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="index.html"
+                            class="navHeadingProfile text-gray-500 block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-8 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                            MY CLASS </a>
+                    </li>
+                    <li>
+                        <a href="index.html"
+                            class="navHeadingProfile text-gray-500 block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-8 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                            MY FRIENDS</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="display: flex; justify-content: space-around; align-items: center; gap: 2rem;">
+                <div>
+                    <p class="text-gray-900 text-2xl navHeading">Megan Houston</p>
+                    <p class="text-gray-500 navPara">View your profile</p>
+                </div>
+
+                <div>
+                    <img src="./images/Ellipse_small_profile_pic.png" class="navImg"
+                        style="background-color: #E2E2E2; border-radius: 50%;" alt="">
+                </div>
+
+                <div>
+                    <img src="./images/Bell.png" class="navImg"
+                        style="background-color: #E2E2E2; padding: 1rem; border-radius: 50%;" alt="">
+                </div>
+
+                <div>
+                    <img src="./images/Chart.png" class="navImg"
+                        style="background-color: #E2E2E2; padding: 1rem; border-radius: 50%;" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar Ends -->
+
+    <!-- Content Start -->
+
+    <div class="container">
+        <div>
+            <h1 class="text-3xl mb-16">My Profile</h1>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 2rem;"
+            class="flexDirection">
+
+            <div
+                style="background-color: white; box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.0588235); flex: 1; width: 100%;">
+
+                <div style="display: flex; justify-content: space-between; align-items: center;"
+                    class="profileInfo headingPadding">
+                    <div>
+                        <h1 class="text-2xl">Personal Information</h1>
+                    </div>
+                    <div>
+                        <p class="text-blue-500 pr-5">Edit your profile</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 1.5rem;" class="flexPadding">
+                    <div>
+                        <img src="./images/Ellipse_profile_pic.png" alt="" class="profileImgSmall">
+                    </div>
+
+                    <div>
+                        <p class="text-black text-xl profilePara">Megan Houston</p>
+                        <p class="text-gray-500 profilePara2">Member since : August 2017</p>
+                        <p class="text-blue-500 profilePara2">Upload photo</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center;" class="flexPadding">
+                    <div>
+                        <p class="text-gray-500 uppercase profilePara">Email</p>
+                        <p class="profilePara2">megan.houston@gmail.com</p>
+                    </div>
+
+                    <div>
+                        <p class="text-gray-500 uppercase profilePara">Password</p>
+                        <p class="profilePara2">************</p>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: start; justify-content: space-between;" class="flexPadding">
+                    <div>
+                        <p class="text-gray-500 uppercase profilePara">Address</p>
+                        <p class="profilePara2">London</p>
+                    </div>
+
+                    <div>
+                        <p class="text-gray-500 uppercase profilePara">Birthday</p>
+                        <p class="profilePara2">22/02/1995</p>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem;"
+                    class="flexPadding">
+                    <div>
+                        <p class="text-gray-500 uppercase profilePara">Mobile number</p>
+                        <p class="profilePara2">XXXX-XXXX-XXXX</p>
+                    </div>
+                </div>
+
+            </div>
+            <div
+                style="background-color: white; box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.0588235); flex: 1; width: 100%;">
+
+                <div style="display: flex; justify-content: space-between; align-items: center;"
+                    class="headingPadding profileInfo">
+                    <div>
+                        <h1 class="text-2xl">Payment Information</h1>
+                    </div>
+                    <div>
+                        <p class="text-blue-500 pr-5">Edit payment</p>
+                    </div>
+                </div>
+
+                <div class="pt-10 pr-10 pl-10 relative inputPadding">
+                    <input type="text" id="first_name"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="XXXX XXXX XXXX XX56" required>
+                    <div class="flex items-center pointer-events-none creditCard">
+                        <h1>Visa</h1>
+                    </div>
+                </div>
+                <div class="pt-10 pr-10 pl-10 relative inputPadding inputSize">
+                    <input type="text" id="first_name"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="XXXX XXXX XXXX XX89" required>
+                    <div class="flex items-center pointer-events-none creditCard">
+                        <h1>Mastercard</h1>
+                    </div>
+                </div>
+                <div class="pt-10 pr-10 pl-10 relative inputPadding">
+                    <input type="text" id="first_name"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="me***************com" required>
+                    <div class="flex items-center pointer-events-none creditCard">
+                        <h1>PayPal</h1>
+                    </div>
+                </div>
+                <div class="pt-10 pr-10 pl-10 relative mb-20 inputPadding">
+                    <input type="text" id="first_name"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="+1XX-XXXX-XX68" required>
+                    <div class="flex items-center pointer-events-none creditCard">
+                        <h1>Google Pay</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <h1 class="text-3xl mt-16 mb-10">Your Class Cards(s)</h1>
+            <div style="display: flex; justify-content: center; align-items: center; gap :2rem; overflow: hidden; flex-wrap: wrap;"
+                class="cards">
+                <div style="position: relative;">
+                    <div style="position: absolute; right: 20px; top: 20px; height: 10rem; width: 10rem">
+                        <img src="./images/Logo.png" alt="">
+                    </div>
+                    <div class="cardContent">
+                        <h2>For</h2>
+                        <h2 class="text-2xl mb-5">New Jersey Dancers</h2>
+                        <div
+                            style="display: flex; justify-content: space-between; gap: 3rem; align-items: center; margin-bottom: 15px;">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="text-xs">
+                                    <p>Classes <br> Available</p>
+                                </div>
+                                <div class="text-xl">
+                                    10
+                                </div>
+                            </div>
+
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="text-xs">
+                                    <p>Valid <br> Upto</p>
+                                </div>
+                                <div class="text-xl">
+                                    11/21
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-sm">Megan Houston</h2>
+                    </div>
+                    <img src="./images/Rectangle_pink.webp" alt="">
+                </div>
+                <div style="position: relative;">
+                    <div style="position: absolute; right: 20px; top: 20px; height: 10rem; width: 10rem">
+                        <img src="./images/Logo.png" alt="">
+                    </div>
+                    <div class="cardContent">
+                        <h2>For</h2>
+                        <h2 class="text-2xl mb-5">Lucy Hale</h2>
+                        <div
+                            style="display: flex; justify-content: space-between; gap: 3rem; align-items: center; margin-bottom: 15px;">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="text-xs">
+                                    <p>Classes <br> Available</p>
+                                </div>
+                                <div class="text-xl">
+                                    06
+                                </div>
+                            </div>
+
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="text-xs">
+                                    <p>Valid <br> Upto</p>
+                                </div>
+                                <div class="text-xl">
+                                    09/21
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-sm">Megan Houston</h2>
+                    </div>
+                    <img src="./images/Rectangle_blue.webp" alt="">
+                </div>
+                <div style="position: relative;">
+                    <div style="position: absolute; right: 20px; top: 20px; height: 10rem; width: 10rem">
+                        <img src="./images/Logo.png" alt="">
+                    </div>
+                    <div class="cardContent">
+                        <h2>For</h2>
+                        <h2 class="text-2xl mb-5">Christina Wolf</h2>
+                        <div
+                            style="display: flex; justify-content: space-between; gap: 3rem; align-items: center; margin-bottom: 15px;">
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="text-xs">
+                                    <p>Classes <br> Available</p>
+                                </div>
+                                <div class="text-xl">
+                                    10
+                                </div>
+                            </div>
+
+                            <div style="display: flex; gap: 1rem;">
+                                <div class="text-xs">
+                                    <p>Valid <br> Upto</p>
+                                </div>
+                                <div class="text-xl">
+                                    11/21
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-sm">Megan Houston</h2>
+                    </div>
+                    <img src="./images/Rectangle_green.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-10">
+            <h1 class="text-3xl mt-16 mb-10">Your Credit</h1>
+            <div class="text-xl text-gray-500"
+                style="background-color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; border-radius: 10px;">
+                <div>
+                    <h1>Your balance in the credit account</h1>
+                </div>
+                <div>
+                    <h1>
+                        $45
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: white;" class="p-10 mb-20">
+
+            <h1 class="text-3xl pb-5">History</h1>
+
+            <div style="display: flex;">
+                <div>
+                    <button type="button"
+                        class="text-black bg-gray-300 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">BOOKED
+                        CLASSES</button>
+                </div>
+                <div>
+                    <button type="button"
+                        class="text-black focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">PAYMENT
+                        HISTORY</button>
+                </div>
+            </div>
+
+
+
+            <div class="relative overflow-x-auto shadow-md sm:rounded-lg  mt-5">
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">
+                                Date
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Class name
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Level
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Class Type
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Status
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap dark:text-white">
+                                August 16,2020
+                            </th>
+                            <td class="px-6 py-4">
+                                Online: Pilates Evolution by Lucy Hale
+                            </td>
+                            <td class="px-6 py-4">
+                                Intermediate
+                            </td>
+                            <td class="px-6 py-4">
+                                Pilates
+                            </td>
+                            <td class="px-6 py-4">
+                                <span style="color: #50C35D;">Attended </span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap dark:text-white">
+                                August 16,2020
+                            </th>
+                            <td class="px-6 py-4">
+                                Online: Pilates Evolution by Lucy Hale
+                            </td>
+                            <td class="px-6 py-4">
+                                Intermediate
+                            </td>
+                            <td class="px-6 py-4">
+                                Pilates
+                            </td>
+                            <td class="px-6 py-4">
+                                <span style="color: #50C35D;">Attended </span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-4 font-medium  whitespace-nowrap dark:text-white">
+                                August 16,2020
+                            </th>
+                            <td class="px-6 py-4">
+                                Online: Pilates Evolution by Lucy Hale
+                            </td>
+                            <td class="px-6 py-4">
+                                Intermediate
+                            </td>
+                            <td class="px-6 py-4">
+                                Pilates
+                            </td>
+                            <td class="px-6 py-4">
+                                <span style="color: #50C35D;">Attended </span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-4 font-medium  whitespace-nowrap dark:text-white">
+                                August 16,2020
+                            </th>
+                            <td class="px-6 py-4">
+                                Online: Pilates Evolution by Lucy Hale
+                            </td>
+                            <td class="px-6 py-4">
+                                Intermediate
+                            </td>
+                            <td class="px-6 py-4">
+                                Pilates
+                            </td>
+                            <td class="px-6 py-4">
+                                <span style="color: #50C35D;">Attended </span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap dark:text-white">
+                                August 16,2020
+                            </th>
+                            <td class="px-6 py-4">
+                                Online: Pilates Evolution by Lucy Hale
+                            </td>
+                            <td class="px-6 py-4">
+                                Intermediate
+                            </td>
+                            <td class="px-6 py-4">
+                                Pilates
+                            </td>
+                            <td class="px-6 py-4">
+                                <span style="color: #50C35D;">Attended </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Content End -->
+
+
+    <!-- Footer Starts -->
+
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-800" style="background-color: #E5F8FE;">
+        <div class="w-full mx-auto p-8 footerData">
+            <img src="./images/Logo.webp" alt="" class="footerLogo">
+            <div>
+                <p>HEAD OFFICE</p>
+                <p class="w-44">Proin sed condimentum st,
+                    vitae sodales #01-23455
+                    Lorem ipsum,
+                    Lipsum Dolores</p>
+            </div>
+            <div>
+                <h2>ABOUT US</h2>
+                <br>
+                <h2>HOW IT WORKS</h2>
+                <br>
+                <h2>WHY UPWARDFACINGCAT</h2>
+                <br>
+                <h2>PRICING</h2>
+            </div>
+            <div>
+                CONNECT WITH US
+                <div style="display: flex; align-items: start; gap: 1rem; padding-top: 1rem;">
+                    <div>
+                        <img style="background-color: #65c8e8; padding: 1.2rem 1.5rem 1rem 1.5rem; border-radius: 47%;"
+                            src="./images/facebook-logo.png" alt="" />
+                    </div>
+                    <div>
+                        <img style="background-color: #65c8e8; padding: 1rem; border-radius: 45%;"
+                            src="./images/ig-logo.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full mx-auto max-w-screen-xl p-4">
+            <div style="display: flex; justify-content: space-between; align-items: center;" >
+                <div>
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
+                            href="index.html" class="hover:underline">Copyright © Upwardfacingcat 2020. All
+                            right reserved.</a>
+                    </span>
+                </div>
+                <div>
+                    <ul
+                        class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                        <li>
+                            <a href="#" class="mr-4 hover:underline md:mr-6 ">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Footer Ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
+
+</html>

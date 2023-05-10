@@ -1,0 +1,139 @@
+@media screen and (max-width: 1070px) {
+    .flexDirection {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .profileImgSmall {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .flexPadding {
+        padding: 1rem 2rem 0rem 2rem;
+    }
+
+    .headingPadding {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flexPadding {
+        padding: 1rem 2rem 0rem 2rem;
+    }
+
+    .profilePara {
+        font-size: 0.8rem;
+    }
+
+    .profilePara2 {
+        font-size: 0.7rem;
+    }
+
+    .profileInfo h1,
+    p {
+        font-size: 1rem;
+    }
+
+    .headingPadding {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .inputPadding {
+        padding: 1rem;
+    }
+
+    .creditCard {
+        position: absolute;
+        right: 31px;
+        bottom: 27px;
+    }
+
+    .creditCard h1 {
+        font-size: 0.7rem;
+    }
+
+    .inputSize input {
+        font-size: 0.7rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 500px) {
+    .creditCard {
+        position: absolute;
+        right: 55px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1070px) {
+    .headingPadding {
+        padding: 1rem;
+    }
+
+    .flexPadding {
+        padding: 2.2rem 2rem 0rem 2rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .navHeading {
+        font-size: 0.8rem;
+    }
+
+    .navPara {
+        font-size: 0.7rem;
+    }
+
+    .navImg {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .navHeadingProfile {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .cardContent {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .cardContent h2 {
+        font-size: 1rem;
+        margin-bottom: -.1rem;
+    }
+
+    .cardContent p {
+        font-size: .7rem;
+    }
+
+}
+
+@media screen and (min-width: 425px) {
+
+    .cardContent {
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .footerData{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+}

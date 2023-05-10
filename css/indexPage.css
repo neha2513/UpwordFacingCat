@@ -1,0 +1,269 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.mainContent {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image2 {
+    position: absolute;
+    top: .1px;
+    left: 510px;
+}
+
+.authentication {
+    width: 500px;
+    float: left;
+    position: absolute;
+    left: 60rem;
+    top: 100px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: 4rem auto 0 auto;
+}
+
+.dataLeft {
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.0588235);
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: white;
+}
+
+@media screen and (max-width:373px) {
+    .imgResponsive {
+        height: 4rem;
+        width: 14rem;
+    }
+
+    .mainContent {
+        height: 100%;
+    }
+
+    .authentication {
+        position: absolute;
+        top: 1rem;
+        left: auto;
+        right: auto;
+        width: 100%;
+    }
+
+    .authenticationHeading {
+        font-size: 1rem;
+    }
+
+    .authenticationPara {
+        font-size: 0.7rem;
+    }
+
+    .footerStyles {
+        position: absolute;
+        width: 100%;
+        top: 20rem;
+    }
+
+    .createButton {
+        margin: 0;
+        margin-bottom: 0.5rem;
+        height: 2.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width:374px) and (max-width: 700px) {
+    .imgResponsive {
+        height: 4rem;
+        width: 14rem;
+    }
+    
+    .authentication {
+        position: absolute;
+        top: 1rem;
+        left: .1rem;
+        right: 1rem;
+        width: 93%;
+    }
+
+    .authenticationHeading {
+        font-size: 2rem;
+    }
+
+    .authenticationPara {
+        font-size: 1rem;
+    }
+
+    .createButton {
+        margin: 1rem 0 1rem 0;
+        height: 2.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width: 1492px) {
+    .imgResponsive {
+        height: 4rem;
+        width: 14rem;
+    }
+
+    .authentication {
+        position: absolute;
+        top: 1rem;
+        left: .1rem;
+        right: 1rem;
+        width: 70%;
+        margin: auto;
+    }
+
+    .authenticationHeading {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .authenticationPara {
+        font-size: 1.2rem;
+    }
+
+    .createButton {
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (min-width:1493px) {
+    .tabsPadding {
+        padding: 1rem;
+    }
+
+    .authenticationHeading {
+        padding: 1.5rem 1rem;
+    }
+
+    .authenticationPara {
+        padding: 0 1rem 1.5rem 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1162px) {
+    .imgResponsive {
+        height: 3rem;
+        width: 10rem;
+    }
+
+    .textClass {
+        font-size: 0.8rem;
+    }
+
+    .myClass {
+        margin-left: -2rem
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .footerData {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .loginButtons {
+        padding: 0.5rem;
+    }
+
+    .createButton {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 518px) {
+    .authenticationPara {
+        font-size: 0.7rem;
+        padding: 0;
+    }
+
+    .loginFacebookFont {
+        font-size: 0.6rem;
+    }
+
+    .loginGoogleFont {
+        font-size: 0.6rem;
+    }
+
+    .loginButtons {
+        padding: 0.4rem;
+    }
+    .createButton {
+        margin: 1rem 0 1rem 0;
+    }
+    .footerLogo{
+        height: 4rem;
+        width: 15rem;
+    }
+    .footerHeading{
+        font-size: .7rem;
+    }
+
+    .footerText{
+        font-size: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .footerData{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 479px) {
+    .loginButtons {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .loginResponsive{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+    .buttons{
+        padding: 0 1rem;
+    }
+    .marginFields{
+        margin-bottom: 0;
+    }
+    #default-input{
+        padding: 0.3rem;
+    }
+    .orText{
+        font-size: 0.1rem;
+    }
+    .authentication{
+        position: relative;
+        margin: 2rem auto;
+        width: 100%;
+    }
+}
