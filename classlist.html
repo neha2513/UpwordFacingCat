@@ -4,47 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="max-age=536000">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The information of the classes and the instructor with necessary details given">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/indexPage.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="./css/classlist.css">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <title>ClassList - Upword Facing Cat</title>
 </head>
 
-<body>
+<body style="font-family: Inter;">
     <!-- Navbar Starts-->
-
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-        <div class="max-w-screen-xs flex flex-wrap items-center justify-evenly mx-auto p-4">
-            <a href="index.html" class="flex items-center">
-                <img src="./images/Logo.webp" class="h-13 mr-3 imgResponsive" alt="Flowbite Logo" />
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 p-4">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+            <div>
+                <a href="index.html" class="flex items-center">
+                    <img src="./images/Logo.webp" class="h-13 mr-3 imgResponsive" alt="Flowbite Logo" />
+                </a>
+            </div>
+            <div>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul
                     class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 md:space-x-8 textClass">
                     <li>
                         <a href="index.html"
-                            class="block myClass py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                            aria-current="page">HOME</a>
+                            class="block myClass py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">HOME</a>
+                        
                     </li>
                     <li>
                         <a href="classlist.html"
-                            class="block myClass py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 dark:text-white md:dark:text-blue-500">CLASS
-                            LIST</a>
+                            class="block myClass py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">CLASS LIST</a>
                     </li>
                     <li>
                         <a href="#"
@@ -71,16 +73,16 @@
     <!-- Content Starts -->
 
     <div class="container">
-        <h1 class="text-4xl mb-16" style="font-family: Inter;">Class List</h1>
+        <h1 class="text-4xl mb-16 heading" style="font-family: Inter; padding-bottom: 2rem;">Class List</h1>
         <div style="display: flex; justify-content: space-between; gap: 1rem" class="flexDirection">
             <div style="flex: .90;">
                 <p class="mb-4">Filtered By</p>
                 <div class="dataLeft">
                     <div class="mb-6">
-                        <label for="default-input"
+                        <label for="default-input1"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose Date</label>
                         <div class="relative">
-                            <input type="text" id="default-input" placeholder="All"
+                            <input type="text" id="default-input1" placeholder="All"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <div class="absolute right-3 bottom-2 flex items-center pointer-events-none">
                                 <img src="./images/Drop_down_icon.png" alt="">
@@ -99,11 +101,11 @@
 
                     </div>
                     <div class="mb-6">
-                        <label for="default-input"
+                        <label for="default-input2"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose dance
                             style</label>
                         <div class="relative">
-                            <input type="text" id="default-input" placeholder="All"
+                            <input type="text" id="default-input2" placeholder="All"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <div class="absolute right-3 bottom-2 flex items-center pointer-events-none">
                                 <img src="./images/Drop_down_icon.png" alt="">
@@ -111,12 +113,12 @@
                         </div>
                     </div>
                     <div class="mb-6">
-                        <label for="default-input"
+                        <label for="default-input3"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose teacher /
                             instructor</label>
 
                         <div class="relative">
-                            <input type="text" id="default-input" placeholder="All"
+                            <input type="text" id="default-input3" placeholder="All"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <div class="absolute right-3 bottom-2 flex items-center pointer-events-none">
                                 <img src="./images/Drop_down_icon.png" alt="">
@@ -129,10 +131,10 @@
                         </label> -->
                     </div>
                     <div class="mb-6">
-                        <label for="default-input"
+                        <label for="default-input4"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose level</label>
                         <label>
-                            <input type="text" id="default-input" placeholder="All"
+                            <input type="text" id="default-input4" placeholder="All"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         </label>
                     </div>
@@ -418,11 +420,11 @@
                 CONNECT WITH US
                 <div style="display: flex; align-items: start; gap: 1rem; padding-top: 1rem;">
                     <div>
-                        <img style="background-color: #65c8e8; padding: 1.2rem 1.5rem 1rem 1.5rem; border-radius: 47%;"
+                        <img style="background-color: #65c8e8; padding: 1.2rem 1.5rem 1rem 1.5rem; border-radius: 47%; height: auto; width: auto;"
                             src="./images/facebook-logo.png" alt="" />
                     </div>
                     <div>
-                        <img style="background-color: #65c8e8; padding: 1rem; border-radius: 45%;"
+                        <img style="background-color: #65c8e8; padding: 1rem; border-radius: 45%; height: auto; width: auto;"
                             src="./images/ig-logo.png" alt="" />
                     </div>
                 </div>
@@ -430,10 +432,10 @@
         </div>
 
         <div class="w-full mx-auto max-w-screen-xl p-4">
-            <div style="display: flex; justify-content: space-between; align-items: center;" >
+            <div style="display: flex; justify-content: space-between; align-items: center;">
                 <div>
-                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
-                            href="" class="hover:underline">Copyright © Upwardfacingcat 2020. All
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="index.html"
+                            class="hover:underline">Copyright © Upwardfacingcat 2020. All
                             right reserved.</a>
                     </span>
                 </div>
